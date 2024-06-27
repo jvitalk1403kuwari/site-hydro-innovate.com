@@ -1,0 +1,31 @@
+.contact-form input,
+.contact-form textarea {
+    border: 2px solid #00ffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    color: black;
+    transition: border 0.3s, background 0.3s;
+}
+
+.contact-form input:focus ,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #ff00ff;
+}
+
+.contact-form button {
+    background: linear-gradient(145deg, #00ffff, #1e3c72);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.contact-form button:hover {
+    background: linear-gradient(145deg, #1e3c72, #00ffff);
+    transform: translateY(-5px);
+}

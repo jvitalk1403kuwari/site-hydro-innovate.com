@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    line-height: 1.6;
+}
+
+.header {
+    background: linear-gradient(145deg, #1e3c72, #2a5298);
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.header a {
+    color: #00ffff;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.header a:hover, .navbar-toggler:hover {
+    color: #ff00ff;
+}
+
+.navbar-toggler{
+    background-color: #00ffff;
+    color: #fff;
+
+}
+
+.nav-link{
+    font-size: 20px;
+    color: #333;
+}
+
+
+.footer {
+    background: linear-gradient(145deg, #2a5298, #1e3c72);
+    padding: 20px 0;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #00ffff;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ff00ff;
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #333;
+}
+
+.scroll-to-top i {
+    font-size: 24px;
+}
+
